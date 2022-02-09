@@ -217,4 +217,15 @@ h2 {
   color: #2196f3;
   font-size: 25px;
 }
+
+#content .social-link {
+  width: 100%;
+  margin-top: 25px;
+  text-align: center;
+}
+
+#content .social-link .icon-social {
+  font-size: 2.5rem;
+  margin: 0.5rem;
+}
 /*# sourceMappingURL=style.css.map */
