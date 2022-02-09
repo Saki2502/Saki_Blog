@@ -181,14 +181,28 @@ h2 {
     margin-top: 25px;
     text-align: center;
     .icon-social {
-      font-size: 2.5rem;
-      margin: 0.5rem;
-      .ti-google {}
-      .ti-soundcloud {}
-      .ti-github {}
-      .ti-facebook {}
-    }
+      font-size: 3rem;
+      margin: 0.8rem;
   }
+}
+
+.fa-facebook {
+  color: #1778f2;
+}
+.fa-instagram {
+  color: #cd2653;
+}
+.fa-spotify {
+  color: #1bd760;
+}
+.fa-github {
+  color: #333;
+}
+}
+
+.content-section_music {
+  background-color: #f8f8f8;
+  padding: 60px 15px;
 }
 
 //footer

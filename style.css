@@ -225,7 +225,28 @@ h2 {
 }
 
 #content .social-link .icon-social {
-  font-size: 2.5rem;
-  margin: 0.5rem;
+  font-size: 3rem;
+  margin: 0.8rem;
+}
+
+#content .fa-facebook {
+  color: #1778f2;
+}
+
+#content .fa-instagram {
+  color: #cd2653;
+}
+
+#content .fa-spotify {
+  color: #1bd760;
+}
+
+#content .fa-github {
+  color: #333;
+}
+
+.content-section_music {
+  background-color: #f8f8f8;
+  padding: 60px 15px;
 }
 /*# sourceMappingURL=style.css.map */
