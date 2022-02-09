@@ -203,7 +203,18 @@ h2 {
 .content-section_music {
   background-color: #f8f8f8;
   padding: 60px 15px;
+
 }
+
+.music-item {
+  width: 25%;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  margin: 5px;
+  cursor: pointer;
+}
+
 
 //footer
 #footer {
