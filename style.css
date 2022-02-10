@@ -67,8 +67,8 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 1.6rem;
-  font-weight: 500;
+  font-size: 1.3rem;
+  font-weight: 800;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-align: center;
@@ -171,7 +171,7 @@ h2 {
 
 #content .content-section {
   width: 850px;
-  padding: 70px 15px;
+  padding: 60px 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -181,6 +181,7 @@ h2 {
   font-size: 36px;
   font-weight: 700;
   text-align: center;
+  margin-bottom: 15px;
 }
 
 #content .about-text,
@@ -245,17 +246,160 @@ h2 {
   color: #333;
 }
 
-.content-section_music {
+.content-section_music,
+.content-section_shop {
   background-color: #f8f8f8;
   padding: 60px 15px;
 }
 
+.musics-list {
+  padding: 25px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .music-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 25%;
-  padding: 0;
+  padding: 0 5px;
   text-align: center;
   position: relative;
-  margin: 5px;
+  margin: 8px;
   cursor: pointer;
+}
+
+.music-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  vertical-align: middle;
+  position: relative;
+}
+
+.music-item:hover .music-body {
+  opacity: 1;
+  padding-top: 20%;
+}
+
+.music-body {
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.music-content {
+  padding-top: 15%;
+  margin-top: 15px;
+  opacity: 0;
+}
+
+.music-content h3 {
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.music-content .post-title {
+  opacity: 0;
+  color: #ff453b;
+  margin: 0;
+  padding: 0 30px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translate3d(0, -50%, 0);
+  -webkit-transform: translate3d(0, -50%, 0);
+  -moz-transform: translate3d(0, -50%, 0);
+  -ms-transform: translate3d(0, -50%, 0);
+  -o-transform: translate3d(0, -50%, 0);
+}
+
+.music-content .post-more {
+  opacity: 0;
+  color: lightgoldenrodyellow;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 5px;
+}
+
+.gallery-padding {
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.gallery-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pic-item {
+  width: 33.3333%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 8px;
+  cursor: pointer;
+  height: 100%;
+}
+
+.shop-list {
+  padding: 1.5rem 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.shop-item {
+  float: left;
+  text-align: justify;
+  width: 25%;
+  height: 100%;
+  padding: 5px 10px;
+}
+
+.shop-item h3 {
+  font-size: 24px;
+}
+
+.shop-item p {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.item-adobe {
+  background-color: #F20F00;
+}
+
+.item-spotify {
+  background-color: #1DB954;
+  color: #fff;
+}
+
+.item-netflix {
+  background-color: #E50914;
+  color: #000;
+}
+
+.item-grammarly {
+  background-color: #11A683;
+  color: #fff;
+}
+
+.form-contact {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
