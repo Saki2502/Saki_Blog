@@ -165,10 +165,6 @@ h2 {
   font-size: 2rem;
 }
 
-#content {
-  height: 1000px;
-}
-
 #content .content-section {
   width: 850px;
   padding: 60px 15px;
@@ -247,8 +243,9 @@ h2 {
 }
 
 .content-section_music,
-.content-section_shop {
-  background-color: #f8f8f8;
+.content-section_shop,
+.content-section_maps {
+  background-color: #fff;
   padding: 60px 15px;
 }
 
@@ -279,11 +276,6 @@ h2 {
   position: relative;
 }
 
-.music-item:hover .music-body {
-  opacity: 1;
-  padding-top: 20%;
-}
-
 .music-body {
   overflow: hidden;
   top: 0;
@@ -303,7 +295,6 @@ h2 {
 }
 
 .music-content .post-title {
-  opacity: 0;
   color: #ff453b;
   margin: 0;
   padding: 0 30px;
@@ -319,7 +310,6 @@ h2 {
 }
 
 .music-content .post-more {
-  opacity: 0;
   color: lightgoldenrodyellow;
   font-size: 22px;
   letter-spacing: 2px;
@@ -329,6 +319,10 @@ h2 {
   bottom: 0;
   left: 0;
   padding-bottom: 5px;
+}
+
+.music-content:hover {
+  opacity: 1;
 }
 
 .gallery-padding {
@@ -379,21 +373,21 @@ h2 {
 }
 
 .item-adobe {
-  background-color: #F20F00;
+  background-color: #f20f00;
 }
 
 .item-spotify {
-  background-color: #1DB954;
+  background-color: #1db954;
   color: #fff;
 }
 
 .item-netflix {
-  background-color: #E50914;
+  background-color: #e50914;
   color: #000;
 }
 
 .item-grammarly {
-  background-color: #11A683;
+  background-color: #11a683;
   color: #fff;
 }
 
@@ -401,5 +395,75 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 20px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.form-section {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.form-input {
+  border: 1px solid #ccc;
+  padding: 8px;
+  display: block;
+  width: 100%;
+  font-size: 22px;
+  line-height: 1.2rem;
+}
+
+.form-btn {
+  float: right;
+  font-size: 22px;
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+.contact-maps {
+  padding-top: 30px;
+}
+
+#footer {
+  font-size: 1.6rem;
+  padding: 2rem 4.5rem;
+  color: #000;
+  background-color: #30cf93;
+}
+
+#footer .section-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-inner {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 120rem;
+}
+
+.footer-copyright {
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.5;
 }
 /*# sourceMappingURL=style.css.map */
