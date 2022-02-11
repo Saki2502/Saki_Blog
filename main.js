@@ -23,6 +23,6 @@ $(document).ready(function () {
       myIndex = 1;
     }
     x[myIndex - 1].style.display = "block";
-    setTimeout(showSlides, 3000);
+    setTimeout(showSlides, 2000);
   }
 });
