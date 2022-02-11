@@ -255,14 +255,16 @@ h2 {
   padding: 60px 15px;
 }
 
-.musics-list, .gallery-list {
+.musics-list,
+.gallery-list {
   padding: 25px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.music-item, .gallery-item {
+.music-item,
+.gallery-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -274,7 +276,8 @@ h2 {
   cursor: pointer;
 }
 
-.music-img, .gallery-img {
+.music-img,
+.gallery-img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
@@ -510,5 +513,10 @@ h2 {
   border-bottom: 1px solid #ccc;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.gallery-img:hover {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 /*# sourceMappingURL=style.css.map */
