@@ -148,11 +148,11 @@ a {
 #slider,
 #slideshow {
   margin-top: 95px;
-  padding-top: 50%;
   position: relative;
 }
 
 #slider {
+  padding-top: 50%;
   background: url("assets/images/slide-wallpaper.png") top center/cover no-repeat;
 }
 
