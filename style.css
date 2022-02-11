@@ -400,6 +400,10 @@ h2 {
   color: #fff;
 }
 
+#contact {
+  padding: 120px !important;
+}
+
 .form-contact {
   -webkit-box-align: center;
       -ms-flex-align: center;
