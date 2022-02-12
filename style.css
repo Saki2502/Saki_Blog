@@ -40,7 +40,7 @@ img {
   height: 95px;
   background-color: #fff;
   position: fixed;
-  z-index: 1;
+  z-index: 9999;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -563,6 +563,7 @@ h2 {
 }
 
 .music-caption {
+  display: block;
   position: absolute;
   background: rgba(0, 0, 0, 0.5);
   z-index: 1;

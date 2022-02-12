@@ -34,7 +34,7 @@ img {
   height: 95px;
   background-color: #fff;
   position: fixed;
-  z-index: 1;
+  z-index: 9999;
   align-items: center;
   justify-content: space-between;
   #logo {
@@ -480,6 +480,7 @@ h2 {
   position: relative;
 }
 .music-caption {
+  display: block;
   position: absolute;
   background:rgba(0, 0, 0, 0.5);
   z-index: 1;
