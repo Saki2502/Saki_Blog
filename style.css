@@ -157,7 +157,7 @@ img {
 }
 
 #slider,
-#slideshow {
+#slideshow, #slideshow_music {
   margin-top: 95px;
   position: relative;
 }
@@ -256,9 +256,7 @@ h2 {
   color: #333;
 }
 
-.content-section_music,
-.content-section_shop,
-.content-section_maps {
+.content-section1 {
   background-color: #fff;
   padding: 60px 15px;
 }
@@ -500,10 +498,10 @@ h2 {
 
 .slides > img {
   width: 100%;
-  height: 450px;
+  height: 500px;
 }
 
-#content-gallery {
+#content-gallery, #content-music {
   margin-top: 50px;
   max-width: 1180px;
   padding: 8px 16px;
@@ -511,12 +509,12 @@ h2 {
   margin-right: auto;
 }
 
-.title-gallery {
+.title-gallery, .title-music {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.header-gallery {
+.header-gallery, .header-music {
   font-size: 30px;
   border-bottom: 1px solid #ccc;
   padding-top: 15px;
@@ -526,5 +524,23 @@ h2 {
 .gallery-img:hover {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.layout-slides {
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.caption-text_music {
+  width: 100%;
+  color: #fff;
+  top: 35%;
+  position: absolute;
+  font-size: 3rem;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
