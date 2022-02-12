@@ -70,7 +70,7 @@ img {
       .icon {
         color: #cd2653;
         font-size: 18px;
-        right: -0.5rem;
+        right: 0;
         top: calc(50% - 0.2rem);
         display: block;
         position: absolute;
@@ -89,12 +89,13 @@ img {
     align-items: center;
     a {
       color: #cd2653;
-      padding-right: 2rem;
+      padding-right: 0.5rem;
+      margin-right: 2rem;
     }
   }
   ul.sub-menu {
     text-align: center;
-    min-width: 120px;
+    min-width: 100px;
     display: none;
     position: absolute;
     z-index: 1;
@@ -106,6 +107,7 @@ img {
       line-height: 1.5;
     }
     li:hover a {
+      width: 100%;
       color: #cd2653;
       background-color: #9ed554;
     }
