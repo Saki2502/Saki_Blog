@@ -27,6 +27,7 @@ img {
 //HOME Page
 //header
 #header {
+  width: 100%;
   display: flex;
   top: 0;
   left: 0;
@@ -122,7 +123,8 @@ img {
 }
 
 #slider,
-#slideshow, #slideshow_music {
+#slideshow,
+#slideshow_music {
   margin-top: 95px;
   position: relative;
 }
@@ -225,7 +227,8 @@ h2 {
 }
 
 .music-item,
-.gallery-item {
+.gallery-item,
+.music-item1 {
   display: flex;
   width: 25%;
   padding: 0 5px;
@@ -428,7 +431,8 @@ h2 {
   }
 }
 
-#content-gallery, #content-music {
+#content-gallery,
+#content-music {
   margin-top: 50px;
   max-width: 1180px;
   padding: 8px 16px;
@@ -436,11 +440,13 @@ h2 {
   margin-right: auto;
 }
 
-.title-gallery, .title-music {
+.title-gallery,
+.title-music {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.header-gallery, .header-music {
+.header-gallery,
+.header-music {
   font-size: 30px;
   border-bottom: 1px solid #ccc;
   padding-top: 15px;
@@ -479,10 +485,26 @@ h2 {
   object-fit: cover;
   position: relative;
 }
+
+.music-item1 {
+  transition: transform linear 0.5s;
+  -webkit-transition: transform linear 0.5s;
+  -moz-transition: transform linear 0.5s;
+  -ms-transition: transform linear 0.5s;
+  -o-transition: transform linear 0.5s;
+}
+.music-item1:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
 .music-caption {
   display: block;
   position: absolute;
-  background:rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
   z-index: 1;
   left: 5px;
   width: 94%;
@@ -502,4 +524,8 @@ h2 {
   font-size: 2rem;
   top: 35%;
   color: #fff;
+}
+.music-video {
+  width: 256px;
+  height: 192px;
 }
