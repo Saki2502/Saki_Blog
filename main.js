@@ -1,22 +1,4 @@
 $(document).ready(function() {
-    //Automatic Slideshow
-    var myIndex = 0;
-    showSlides();
-
-    function showSlides() {
-        var i;
-        var x = document.getElementsByClassName("slides");
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-        }
-        myIndex++;
-        if (myIndex > x.length) {
-            myIndex = 1;
-        }
-        x[myIndex - 1].style.display = "block";
-        setTimeout(showSlides, 2000);
-    }
-
     $("#header, #footer").addClass('wow animate__heartBeat')
     $("#person-img > img").addClass('wow animate__tada')
     $("#container > div.content-section").addClass('wow animate__backInLeft')
