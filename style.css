@@ -30,6 +30,11 @@ img {
   max-width: 100%;
 }
 
+.icon {
+  color: #2196f3;
+  font-size: 25px;
+}
+
 #header {
   width: 100%;
   display: -webkit-box;
@@ -254,11 +259,6 @@ h2 {
   text-align: center;
 }
 
-#container .info-list .icon {
-  color: #2196f3;
-  font-size: 25px;
-}
-
 #container .social-link {
   width: 100%;
   margin-top: 25px;
@@ -451,7 +451,8 @@ h2 {
   height: 100%;
 }
 
-.contact-content {
+.contact-content,
+.about-content {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -666,5 +667,51 @@ h2 {
 .music-video {
   width: 256px;
   height: 192px;
+}
+
+.about-content {
+  margin-top: 25px !important;
+  height: 100%;
+}
+
+.about-intro {
+  width: 60%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 24px;
+  text-align: justify;
+}
+
+.about-img {
+  width: 40%;
+  margin-left: 5%;
+}
+
+.about-img > img {
+  border-radius: 50%;
+  width: 80%;
+}
+
+#sp-donate {
+  margin-top: 20px;
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+#sp-donate > p {
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+#sp-donate > img {
+  border-radius: 20%;
+  width: 50%;
+}
+
+#sp-donate .social-link {
+  margin-top: 0 !important;
 }
 /*# sourceMappingURL=style.css.map */
